@@ -20,7 +20,7 @@ spec:
     - kind: ConfigMap
       name: generic-app-config
   values:
-    configVersion: "1.0.3"
+    configVersion: "1.0.4"
     replicaCount: 2
     image: "mcreativo/hello-world"
     appVersion: "1.0.0"
