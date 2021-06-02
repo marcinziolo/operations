@@ -12,7 +12,7 @@ spec:
         kind: GitRepository
         name: admin-repository
         namespace: flux-system
-      valuesFile: ./infrastructure/environments/dev/values.yaml
+      valuesFile: ./infrastructure/environments/dev12/values.yaml
       interval: 1m
   upgrade:
     remediation:
