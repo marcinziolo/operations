@@ -17,6 +17,9 @@ spec:
   upgrade:
     remediation:
       remediateLastFailure: true
+  valuesFrom:
+    - kind: ConfigMap
+      name: generic-app
   values:
     configVersion: "1.0.3"
     replicaCount: 2
