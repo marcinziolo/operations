@@ -24,5 +24,6 @@ spec:
     appPort: 5000
     exposedPort: 6000
     namespace: team1-namespace1-app1
+    version: "1.0.1"
     environments:
       dbUrl: db-dev
