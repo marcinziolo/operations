@@ -7,7 +7,7 @@ spec:
   interval: 5m
   chart:
     spec:
-      chart: ./infrastructure/appchart/values.yaml
+      chart: ./infrastructure/appchart
       sourceRef:
         kind: GitRepository
         name: admin-repository
