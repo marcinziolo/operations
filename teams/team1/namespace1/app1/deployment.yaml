@@ -23,6 +23,6 @@ spec:
     appName: "hello-world"
     appPort: 5000
     exposedPort: 5000
-    namespace: namespace1
+    namespace: team1-namespace1-app1
     environments:
       dbUrl: db=env
